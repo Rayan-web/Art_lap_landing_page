@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan&display=swap");
+
+@font-face {
+  font-family: bogart;
+  src: url(fonts/Bogart-Semibold-trial.ttf);
+}
+:root {
+  --pink: #e684ff;
+  --black: #2b0538;
+  --white: #fff;
+}
+
+body {
+  background: #e684ff;
+  font-family: "League Spartan", sans-serif;
+  font-size: 20px;
+}
+#create-section {
+  font-family: bogart;
+  color: #fff;
+}
+.navbar {
+  border-bottom: 2px solid #ae59be;
+}
+
+.ant {
+  margin-right: 40px;
+}
+.logo {
+  margin-left: 70px;
+}
+.btnn {
+  background-color: #fff;
+  font-size: 20px;
+  border: 1px solid black;
+  outline: none;
+  color: black;
+  width: 171px;
+  height: 45px;
+
+  border-radius: 10px;
+}
+
+ul {
+  margin-left: 300px;
+}
+.btn-text {
+  color: #000000;
+  text-align: center;
+}
+
+nav .navbar-nav li a {
+  color: #000000 !important;
+}
+
+.img {
+  position: absolute;
+  top: 163px;
+  left: -10px;
+}
+.hero-text {
+  position: absolute;
+  right: 100px;
+  top: 690px;
+  right: 300px;
+}
+.hero-btn {
+  font-size: 18px;
+  font-weight: 400;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  width: 120px;
+  height: 40px;
+  text-align: center;
+}
+
+.create {
+  position: absolute;
+  right: 410px;
+  top: 123px;
+  font-size: 200px;
+}
+.create-text {
+  position: absolute;
+  top: 416px;
+  right: 239px;
+  font-size: 100px;
+}
